@@ -10,7 +10,7 @@
         android:id="@+id/navigationView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:accessToken="sk.eyJ1IjoicHJvZ3JhbW1lcjgiLCJhIjoiY2xsejBjaXJxMHN3eTNxbGY0aGg2ZWMyayJ9.KGheZDqgVp2BcPqhYXgCBg" />
+        app:accessToken="tokenhere" />
 
 
     <FrameLayout
