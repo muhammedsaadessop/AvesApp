@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!-- nav_header.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/nav_header_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <!-- ImageView for the user's profile picture -->
+    <ImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="User Profile Image"
+        android:src="@drawable/icon" />
+
+    <!-- First TextView for the user's name -->
+    <TextView
+        android:id="@+id/nav_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="John Doe"
+        android:textSize="18sp" />
+
+    <!-- Second TextView with smaller font size for additional info -->
+    <TextView
+        android:id="@+id/nav_header_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="johndoe@example.com"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aves</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoicHJvZ3JhbW1lcjgiLCJhIjoiY2xsejBjaXJxMHN3eTNxbGY0aGg2ZWMyayJ9.KGheZDqgVp2BcPqhYXgCBg</string>
+
+</resources>

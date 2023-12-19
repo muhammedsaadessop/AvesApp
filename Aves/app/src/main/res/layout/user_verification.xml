@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DAEFC6"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/verification_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/mail" />
+
+            <!-- Main Heading  -->
+            <TextView
+                android:id="@+id/mainHeadingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/verification_icon"
+                android:text="Email Verification"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Email Label -->
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="20sp"
+                android:layout_below="@id/mainHeadingTextView"
+                android:layout_marginTop="16dp" />
+
+            <!-- Email EditText -->
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailLabel"
+                android:layout_marginTop="8dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#AEAEAE"
+                android:hint="Enter your email" />
+
+            <!-- Confirm Email Label -->
+            <TextView
+                android:id="@+id/confirmEmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Email"
+                android:textSize="20sp"
+                android:layout_below="@id/emailEditText"
+                android:layout_marginTop="16dp" />
+
+            <!-- Confirm Email EditText -->
+            <EditText
+                android:id="@+id/confirmEmailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/confirmEmailLabel"
+                android:layout_marginTop="8dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#AEAEAE"
+                android:hint="Confirm your email" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:layout_marginBottom="19dp"
+                android:gravity="center"
+                android:layout_below="@id/confirmEmailEditText"
+                android:orientation="horizontal">
+                <!-- Verify Button -->
+                <Button
+                    android:id="@+id/verifyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#A9FFC7"
+                    android:text="Verify"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/confirmEmailEditText"
+                    android:layout_alignParentStart="true" />
+
+                <!-- Cancel Button -->
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#8BD6A6"
+                    android:text="Cancel"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/confirmEmailEditText"
+                    android:layout_toEndOf="@id/verifyButton" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

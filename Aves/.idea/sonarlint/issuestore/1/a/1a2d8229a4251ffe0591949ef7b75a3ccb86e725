@@ -1,0 +1,50 @@
+
+Vkotlin:S1172Å"6Use "_" instead of this unused lambda parameter "key".(ÍĞ¿³8ûşÄù¹1
+@kotlin:S6615ò" Remove this useless initializer.(«À¼‡8…ÿÄù¹1
+mkotlin:S117â"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(®‡çÍ8¿ÿÄù¹1
+mkotlin:S117ã"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(óïÓ8¿ÿÄù¹1
+mkotlin:S117ä"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¤ŸÉš8¿ÿÄù¹1
+mkotlin:S117å"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ïË™8¿ÿÄù¹1
+mkotlin:S117æ"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Ï¼÷¸8¿ÿÄù¹1
+rkotlin:S117ç"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¬·¤’ÿÿÿÿÿ8¿ÿÄù¹1
+rkotlin:S117è"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(­ËÖßùÿÿÿÿ8¿ÿÄù¹1
+mkotlin:S117é"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(–Ã‚–8¿ÿÄù¹1
+rkotlin:S117ê"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(”‰Õúÿÿÿÿ8ÀÿÄù¹1
+mkotlin:S117ë"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(³ÔÙ©8ÀÿÄù¹1
+rkotlin:S117ì"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(İèôşÿÿÿÿ8ÀÿÄù¹1
+mkotlin:S117í"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(»ÏÙ8ÀÿÄù¹1
+mkotlin:S117î"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(²ïíÒ8ÀÿÄù¹1
+rkotlin:S117ï"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ı¥Ñåûÿÿÿÿ8ÀÿÄù¹1
+rkotlin:S117ğ"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Â¤Âöşÿÿÿÿ8ÀÿÄù¹1
+rkotlin:S117¸"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Äùéş8ÀÿÄù¹1
+qkotlin:S117»"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(èº8ÀÿÄù¹1
+vkotlin:S117f"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$( Á¡õùÿÿÿÿ8ÀÿÄù¹1
+qkotlin:S117q"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Õâá¬8ÀÿÄù¹1
+lkotlin:S117À"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(îÑ˜C8ÀÿÄù¹1
+wkotlin:S117ù"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(±¹—Ôøÿÿÿÿ8ÁÿÄù¹1
+rkotlin:S117¡"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(‘ï²Ÿ8ÁÿÄù¹1
+wkotlin:S117"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ç•Ğşûÿÿÿÿ8ÁÿÄù¹1
+wkotlin:S117’"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ÎãÁ¯şÿÿÿÿ8ÁÿÄù¹1
+wkotlin:S117¥"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ÿŞ·–úÿÿÿÿ8ÁÿÄù¹1
+wkotlin:S117Ï"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ç•Ğşûÿÿÿÿ8ÁÿÄù¹1
+qkotlin:S117°	"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¡²„T8ÂÿÄù¹1
+wkotlin:S117Æ	"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Ìı•ˆÿÿÿÿÿ8ÂÿÄù¹1
+<kotlin:S6310â"Avoid hardcoded dispatchers.(âßî™8ÂÿÄù¹1
+<kotlin:S6310†"Avoid hardcoded dispatchers.(Í¡·Ş8ÃÿÄù¹1
+<kotlin:S6310€"Avoid hardcoded dispatchers.(Í¡·Ş8ÃÿÄù¹1
+<kotlin:S6310›"Avoid hardcoded dispatchers.(Í¡·Ş8ÄÿÄù¹1
+<kotlin:S6310¤	"Avoid hardcoded dispatchers.(Í¡·Ş8ÄÿÄù¹1
+Mkotlin:S108å")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8şÿÄù¹1
+Hkotlin:S108³")Either remove or fill this block of code.(ÿ¸¸¸8şÿÄù¹1
+Hkotlin:S108¶
+")Either remove or fill this block of code.(ÿ¸¸¸8şÿÄù¹1
+Mkotlin:S108œ")Either remove or fill this block of code.(á½–¿ùÿÿÿÿ8ÿÿÄù¹1
+Mkotlin:S108Í")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8ÿÿÄù¹1
+@kotlin:S6530Æ"Remove this unchecked cast.(ñ½ïüıÿÿÿÿ8“€Åù¹1
+Jkotlin:S1481Ø"+Remove this unused "points" local variable.(ÓÇ(8Ÿî˜¾1
+Xkotlin:S1481£	"3Remove this unused "hotspotDetails" local variable.(”’­ùøÿÿÿÿ8—€Åù¹1
+pkotlin:S1192à"PDefine a constant instead of duplicating this literal "X-eBirdApiToken" 5 times.(«á—¿8¦€Åù¹1
+wkotlin:S3776ğ"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(Ãæ¨Ôúÿÿÿÿ8®€Åù¹1
+wkotlin:S3776Š	"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(™¯×‡şÿÿÿÿ8®€Åù¹1
+zkotlin:S1186è"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ïö“„8¶€Åù¹1
+bkotlin:S6511í"=Merge chained "if" statements into a single "when" statement.(üÕ·†ÿÿÿÿÿ8º€Åù¹1

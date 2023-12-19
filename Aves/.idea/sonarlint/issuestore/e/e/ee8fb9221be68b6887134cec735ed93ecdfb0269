@@ -1,0 +1,6 @@
+
+qkotlin:S117;"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(—¹şÍ8ã‡Ôê²1
+?kotlin:S6530*"Remove this unchecked cast.(Ã´ıùÿÿÿÿ8¹…Úø¸1
+mkotlin:S101"ORename class "Map_settings" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(åçó8À ¥èª1
+Pkotlin:S6518\",Replace function call with indexed accessor.(ä‹„ıÿÿÿÿ8¾…Úø¸1
+Pkotlin:S6518*",Replace function call with indexed accessor.(Ã´ıùÿÿÿÿ8¿…Úø¸1

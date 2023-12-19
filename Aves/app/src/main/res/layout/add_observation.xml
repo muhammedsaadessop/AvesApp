@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D7F2E9"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/returntomenu3"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Bird ENTRY"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/pics"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:background="@drawable/camera"
+            android:backgroundTint="#57AF48"
+            android:contextClickable="false"
+            />
+
+        <ImageView
+            android:id="@+id/display"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@color/white"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/birdname"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/familyname"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Family Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Bird Description"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/colourdesc"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Colour Description"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="#16B502"
+        android:contextClickable="false"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

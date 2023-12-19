@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700487593986",
+    "project_id": "aves-1d218",
+    "storage_bucket": "aves-1d218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700487593986:android:967e2a9ceb3ed91ce8771b",
+        "android_client_info": {
+          "package_name": "com.VarsityCollege.Aves"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700487593986-lmlk2bm0i6dmji2udq1qdehua0el5qc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJrZOUM8QL8AwP5cYkcQs64Zkb_jcSfEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700487593986-lmlk2bm0i6dmji2udq1qdehua0el5qc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="17dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="17.5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/time_cv_background"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/bird_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/bird_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/bird_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bird Name Goes Here"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bird_image">
+
+            <TextView
+                android:id="@+id/bird_time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIME SCORED:"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/bird_time_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="10:00 am - 11 September "
+                android:textSize="16sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

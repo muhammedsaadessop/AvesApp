@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.mapbox.navigation.dropin.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:accessToken="sk.eyJ1IjoicHJvZ3JhbW1lcjgiLCJhIjoiY2xsejBjaXJxMHN3eTNxbGY0aGg2ZWMyayJ9.KGheZDqgVp2BcPqhYXgCBg" />
+
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".Navigation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.mapbox.navigation.ui.tripprogress.view.MapboxTripProgressView
+                android:id="@+id/tripProgressView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tripProgressView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+
+                android:layout_marginEnd="16dp"
+
+                android:text="Cancel" />
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tripProgressView"
+                android:layout_alignParentEnd="true"
+
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="20dp"
+                app:menu_labels_ellipsize="end"
+                app:menu_labels_singleLine="true">
+
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_btn"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/settings_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settings"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/exit_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/return_home"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logout"
+                    app:fab_colorNormal="@android:color/transparent"
+                    app:fab_size="mini" />
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
